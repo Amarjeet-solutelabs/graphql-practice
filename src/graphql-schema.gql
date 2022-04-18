@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Student {
+  id: String!
+  firstName: String!
+  lastName: String!
+  branch: String!
+  city: String
+}
+
+type Query {
+  findAll: Student!
+}
